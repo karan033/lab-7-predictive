@@ -1,0 +1,10 @@
+{
+    "t1_train_end": "2011-10-07 13:19:48",
+    "t2_val_end": "2011-11-11 12:10:00",
+    "train_rows": 274912,
+    "val_rows": 58866,
+    "test_rows": 58954,
+    "train_unique_users": 3703,
+    "val_unique_users": 1617,
+    "test_unique_users": 1558
+}

@@ -1,0 +1,20 @@
+{
+    "features": [
+        "cust_txns",
+        "cust_items",
+        "cust_qty",
+        "cust_spend",
+        "cust_recency_days",
+        "cust_avg_basket",
+        "item_txns",
+        "item_buyers",
+        "item_qty",
+        "item_avg_price",
+        "item_recency_days",
+        "pair_purchases",
+        "pair_qty",
+        "pair_spend",
+        "is_repeat_pair"
+    ],
+    "target": "target"
+}
