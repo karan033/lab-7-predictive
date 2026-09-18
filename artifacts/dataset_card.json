@@ -1,0 +1,13 @@
+{
+    "Source File": "Online Retail.xlsx",
+    "Raw Row Count": 541909,
+    "Missing CustomerIDs Removed": 135080,
+    "Cancellations Removed": 8905,
+    "Final Filtered Rows": 392732,
+    "Unique Customers": 4339,
+    "Unique Items (StockCodes)": 3665,
+    "Date Range Start": "2010-12-01 08:26:00",
+    "Date Range End": "2011-12-09 12:50:00",
+    "Cancellation/Return Policy": "Rows where InvoiceNo starts with 'C' and Quantity <= 0 were purged to avoid false-positive purchases.",
+    "Privacy Policy": "Customer IDs stringified as anonymous identifiers; personal contact fields omitted."
+}
