@@ -94,42 +94,46 @@ The **Random Forest model** dramatically outperformed both generic baselines by 
 
 ---
 
-How to Run
-Prerequisites
+## How to Run
+
+### Prerequisites
 
 The project was developed and tested using the following software versions:
 
-Software	Version
-Python	3.10+
-pandas	2.2.2
-scikit-learn	1.6.1
-numpy	1.26+
+| Software | Version |
+| :--- | :--- |
+| Python | 3.10+ |
+| pandas | 2.2.2 |
+| scikit-learn | 1.6.1 |
+| numpy | 1.26+ |
 
 Install the required dependencies using:
 
+```bash
 pip install pandas scikit-learn numpy matplotlib seaborn joblib openpyxl
-Running the Project
-Clone or download this repository.
-Ensure the Online Retail.xlsx or Online Retail.csv dataset is placed in the root directory. The script includes an auto-upload prompt for Google Colab users if the file is missing.
-Open the notebook:
-23MID0381_Lab07_Recommender_RF.ipynb
+```
 
-using Jupyter Notebook, JupyterLab, or Google Colab.
+### Running the Project
 
-Execute Restart Kernel and Run All Cells (or simply Run All) to reproduce the complete workflow.
+1. Clone or download this repository.
+2. Ensure the `Online Retail.xlsx` or `Online Retail.csv` dataset is placed in the root directory. The script includes an auto-upload prompt for Google Colab users if the file is missing.
+3. Open the notebook: `23MID0381_Lab07_Recommender_RF.ipynb` using Jupyter Notebook, JupyterLab, or Google Colab.
+4. Execute **Restart Kernel and Run All Cells** (or simply Run All) to reproduce the complete workflow.
 
 The notebook will automatically perform:
 
-Transaction audit and cleaning
-Chronological data splitting
-Feature engineering and dataset construction
-Model training, validation, and advanced CF benchmarking
-Metric extraction
-Visualization generation
-.zip bundle export
+- Transaction audit and cleaning
+- Chronological data splitting
+- Feature engineering and dataset construction
+- Model training, validation, and advanced CF benchmarking
+- Metric extraction
+- Visualization generation
+- `.zip` bundle export
 
-No additional configuration is required. The environment seed is locked to ensure deterministic outputs.
+*Note: No additional configuration is required. The environment seed is locked to ensure deterministic outputs.*
 
-License
+---
+
+## License
 
 This project was developed as part of the Advanced Predictive Analytics (Lab 07) coursework and is intended for educational purposes.
