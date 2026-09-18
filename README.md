@@ -94,17 +94,6 @@ The **Random Forest model** dramatically outperformed both generic baselines by 
 
 ---
 
-## Repository Structure
-
-```text
-House-Price-Prediction/
-├── 23MID0381_Lab07_Recommender_RF.ipynb     # Complete recommendation system workflow
-├── 23MID0381_Lab07_Report.pdf               # Detailed lab report and interpretations
-├── models/                                  # Serialized models (.joblib)
-├── artifacts/                               # JSON schemas (dataset card, split manifest, feature cols)
-├── exports/                                 # Exported metrics (Ranking metrics, Error Analysis, Candidate Recall)
-├── figures/                                 # Generated plots (Feature Importance, Precision-Recall curves)
-└── README.md                                # Project documentation
 How to Run
 Prerequisites
 
